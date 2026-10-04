@@ -68,3 +68,48 @@ Pełna pinologia: [`docs/pinout.md`](docs/pinout.md)
 1. Sklonuj repozytorium:
    ```bash
    git clone https://github.com/crahdlinuxservers-maker/ShadowSkaner.git
+   Otwórz src/ShadowSkaner.ino w Arduino IDE.
+
+2.Wybierz płytkę ESP32 Dev Module i odpowiedni port COM.
+
+3. Wgraj kod.
+
+4.Otwórz Serial Monitor (115200 baud).
+
+5. Format danych wyjściowych
+   Plik shadow.csv na karcie SD:
+
+czas,lat,lon,sats,alt
+205118,50.981343,18.217873,05,184.9
+205119,50.981342,18.217868,05,184.6
+
+📊 Status projektu
+Moduł	Status
+GPS → SD	✅ działa
+LCD	⏳ planowane
+Enkoder	⏳ planowane
+RFID	⏳ planowane
+Wi-Fi scanner	⏳ planowane
+BLE scanner	⏳ planowane
+Ostatnia aktualizacja: październik 2026
+
+⚠️ Zastrzeżenie
+Projekt służy wyłącznie do celów edukacyjnych i testów własnej infrastruktury.
+Autor nie ponosi odpowiedzialności za użycie urządzenia w sposób niezgodny z prawem.
+
+Nie używaj tego narzędzia do:
+
+Śledzenia osób bez ich zgody
+
+Nieautoryzowanego dostępu do sieci
+
+Działań szpiegowskich
+
+👤 Autor
+Stanisław Kozioł
+
+GitHub: @crahdlinuxservers-maker
+
+Email: crahdlinuxservers@gmail.com
+
+
