@@ -65,51 +65,60 @@ Pełna pinologia: [`docs/pinout.md`](docs/pinout.md)
 
 ### Instalacja
 
-1. Sklonuj repozytorium:
-   ```bash
-   git clone https://github.com/crahdlinuxservers-maker/ShadowSkaner.git
-   Otwórz src/ShadowSkaner.ino w Arduino IDE.
+Sklonuj repozytorium:
 
-2.Wybierz płytkę ESP32 Dev Module i odpowiedni port COM.
+`git clone https://github.com/crahdlinuxservers-maker/ShadowSkaner.git`
 
-3. Wgraj kod.
+Następnie otwórz plik `src/ShadowSkaner.ino` w Arduino IDE, wybierz płytkę **ESP32 Dev Module** oraz odpowiedni port COM, wgraj kod i otwórz **Serial Monitor** z prędkością 115200 baud.
 
-4.Otwórz Serial Monitor (115200 baud).
+### Format danych wyjściowych
 
-5. Format danych wyjściowych
-   Plik shadow.csv na karcie SD:
+Plik `shadow.csv` na karcie SD ma następującą strukturę:
 
-czas,lat,lon,sats,alt
-205118,50.981343,18.217873,05,184.9
-205119,50.981342,18.217868,05,184.6
+`czas,lat,lon,sats,alt`
 
-📊 Status projektu
-Moduł	Status
-GPS → SD	✅ działa
-LCD	⏳ planowane
-Enkoder	⏳ planowane
-RFID	⏳ planowane
-Wi-Fi scanner	⏳ planowane
-BLE scanner	⏳ planowane
-Ostatnia aktualizacja: październik 2026
+`205118,50.981343,18.217873,05,184.9`
 
-⚠️ Zastrzeżenie
-Projekt służy wyłącznie do celów edukacyjnych i testów własnej infrastruktury.
-Autor nie ponosi odpowiedzialności za użycie urządzenia w sposób niezgodny z prawem.
+`205119,50.981342,18.217868,05,184.6`
 
-Nie używaj tego narzędzia do:
+---
 
-Śledzenia osób bez ich zgody
+## 📊 Status projektu
 
-Nieautoryzowanego dostępu do sieci
+| Moduł | Status |
+|-------|--------|
+| GPS → SD | ✅ działa |
+| LCD | ⏳ planowane |
+| Enkoder | ⏳ planowane |
+| RFID | ⏳ planowane |
+| Wi-Fi scanner | ⏳ planowane |
+| BLE scanner | ⏳ planowane |
 
-Działań szpiegowskich
+Ostatnia aktualizacja: **październik 2026**
 
-👤 Autor
-Stanisław Kozioł
+---
 
-GitHub: @crahdlinuxservers-maker
+## ⚠️ Zastrzeżenie
 
-Email: crahdlinuxservers@gmail.com
+Projekt służy **wyłącznie do celów edukacyjnych** i **testów własnej infrastruktury**. Autor nie ponosi odpowiedzialności za użycie urządzenia w sposób niezgodny z prawem.
 
+**Nie używaj tego narzędzia do:**
 
+- Śledzenia osób bez ich zgody
+- Nieautoryzowanego dostępu do sieci
+- Działań szpiegowskich
+
+---
+
+## 👤 Autor
+
+**Stanisław Kozioł**
+
+- GitHub: [@crahdlinuxservers-maker](https://github.com/crahdlinuxservers-maker)
+- Email: crahdlinuxservers@gmail.com
+
+---
+
+## 📜 Licencja
+
+Projekt na licencji **MIT** – szczegóły w pliku [LICENSE](LICENSE).
